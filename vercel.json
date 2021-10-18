@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/blog/:asset*",
-      "destination": "https://bluecode-blog.vercel.app/:asset*"
+      "destination": "https://vercel-subfolder-blog.vercel.app/:asset*"
     },
     { "source": "/(.*)", "destination": "/" }
   ]
